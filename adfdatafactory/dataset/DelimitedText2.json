@@ -1,0 +1,52 @@
+{
+	"name": "DelimitedText2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "sanskar07"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "color",
+				"type": "String"
+			},
+			{
+				"name": "sumvalue",
+				"type": "String"
+			},
+			{
+				"name": "avgvalue",
+				"type": "String"
+			},
+			{
+				"name": "minvalue",
+				"type": "String"
+			},
+			{
+				"name": "maxvalue",
+				"type": "String"
+			},
+			{
+				"name": "Count",
+				"type": "String"
+			},
+			{
+				"name": "Country",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,9 @@
+{
+	"name": "adfsanskar-dev",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "77f222ed-2978-4c47-9de1-a6dcbaf151bf",
+		"tenantId": "7ebdfc58-70ba-4bb3-a801-090d31a18609"
+	}
+}

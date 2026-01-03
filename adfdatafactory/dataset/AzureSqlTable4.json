@@ -1,0 +1,46 @@
+{
+	"name": "AzureSqlTable4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "color",
+				"type": "nvarchar"
+			},
+			{
+				"name": "sumvalue",
+				"type": "nvarchar"
+			},
+			{
+				"name": "avgvalue",
+				"type": "nvarchar"
+			},
+			{
+				"name": "minvalue",
+				"type": "nvarchar"
+			},
+			{
+				"name": "maxvalue",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Count",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Country",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "multi_des"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
