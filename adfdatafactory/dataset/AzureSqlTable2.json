@@ -49,8 +49,8 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "SalesLT",
-			"table": "Address_destination"
+			"schema": "dbo",
+			"table": "ProductDetailes_destination"
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
